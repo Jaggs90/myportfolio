@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Container, Navbar } from "reactstrap";
+import { Container } from "reactstrap";
 import NavbarBrand from "react-bootstrap/NavbarBrand";
 import NavBar from "react-bootstrap/Navbar";
 import "./App.css";
@@ -61,7 +61,7 @@ class App extends React.Component {
             </NavbarCollapse>
           </NavBar>
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.subTitle} text={this.state.home.text} />} />
+          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title}/>} />
           <Route path="/contact" render={() => <ContactPage title={this.state.contact.title}/>} />
 
