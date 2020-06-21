@@ -6,9 +6,9 @@ import Col from 'react-bootstrap/Col'
 function Footer() {
 
     return (
-      <footer className="mt-5">
+      <footer className="mt-5 fixed-bottom">
         <Container fluid={true}>
-          <Row className="border-top justify-content-between p-3">
+          <Row className="border-top justify-content-between p-3 bg-info">
             <Col className="p-0" md={3} sm={13}>
               Daniel Jaggs
             </Col>
