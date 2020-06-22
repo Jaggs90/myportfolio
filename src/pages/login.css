@@ -1,0 +1,14 @@
+.divForm
+{
+  display: block;
+  text-align: center;
+  
+}
+Form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
